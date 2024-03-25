@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Available Tickets</title>
+</head>
+<body>
+  <h1>Select a Date</h1>
+  <input type="date" name="selected_date" id="selected_date">
+  <h2>Available Tickets</h2>
+  <ul id="available_tickets"></ul>
+  <script>
+     //1st code - disable previous dates
+    // Get today's date
+    var today = new Date().toISOString().split('T')[0];
